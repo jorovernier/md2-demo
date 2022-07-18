@@ -7,8 +7,8 @@ backpack.push('pokedollars')
 // backpack.shift()
 backpack.splice(0, 1)
 
-let stone = 'water stone';
-backpack.push(stone)
+let foundItem = 'waterstone';
+backpack.push(foundItem)
 
 backpack.pop()
 
@@ -22,12 +22,8 @@ let satchel = backpack.splice(3, 2)
 //     console.log(`This is the item at the index of ${i}:`, backpack[i])
 // }
 
-// for(let i = 0; i < 2; i++){
-//     console.log(backpack[i])
-// }
-
-if(backpack.length > 2){
-    for(let i = 0; i < 2; i++){
+if(backpack.length >= 3){
+    for(let i = 0; i < 3; i++){
         console.log(backpack[i])
     }
 } else {
